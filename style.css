@@ -26,7 +26,7 @@
     margin-bottom: 50px;
 }
 
-/* images  */
+/* images and background */
 
 .card{
     width: calc(95% / 3);
@@ -109,9 +109,9 @@ figure::after{
 /* item description  */
 
 .description{
-    width: 285px;
+    width: 100%;
     text-align: left;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 0.8em;
 }
 
