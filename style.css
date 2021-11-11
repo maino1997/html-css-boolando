@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+  width: 1000px;
+  height: 800px;
+}
+
+.row{
+    width: 900px;
+    height: 350px;
+}
+
+figure{
+    width: calc(95% / 3);
+    height: 350px;
+    background-color: grey;
+    display: inline-block;
+}
