@@ -6,7 +6,7 @@
 
 .container{
   width: 1000px;
-  height: 800px;
+  height: 1000px;
   margin: auto;
   background-color: green;
   padding-top: 30px;
@@ -14,7 +14,7 @@
 
 .row{
     width: 900px;
-    height: 350px;
+    height: 400px;
     margin: auto;
     text-align: center;
     background-color: red;
@@ -22,7 +22,23 @@
 
 figure{
     width: calc(95% / 3);
-    height: 350px;
-    background-color: grey;
+    height: 400px;
+    margin-left: 5px;
+    margin-right: 5px;
     display: inline-block;
+}
+
+#tee-top{
+    background-image: url(img/1.webp);
+    background-size: cover;
+}
+
+#roses-tee{
+    background-image: url(img/2.webp);
+    background-size: cover;
+}
+
+#pastello{
+    background-image: url(img/3.webp);
+    background-size: cover;
 }
