@@ -29,7 +29,6 @@
 
 
 figure{
-    /* width: calc(95% / 3); */
     height: 400px;
     position:relative;
 }
@@ -71,4 +70,8 @@ footer{
     width: 285px;
     text-align: left;
     display: inline-block;
+}
+
+.red-text{
+    color:red;
 }
