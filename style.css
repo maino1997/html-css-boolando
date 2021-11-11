@@ -25,7 +25,6 @@
     margin-left: 5px;
     margin-right: 5px;
     display: inline-block;
-
 }
 
 
@@ -70,4 +69,6 @@ figure span:last-child{
 
 footer{
     width: 285px;
+    text-align: left;
+    display: inline-block;
 }
