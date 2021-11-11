@@ -92,6 +92,10 @@ figure{
     display: inline-block;
 }
 
+h4{
+    font-family: sans-serif;
+}
+
 .red-text{
     color:red;
 }
