@@ -1,3 +1,6 @@
+
+/* generals */
+
 *{
     margin:0;
     padding:0;
@@ -22,6 +25,8 @@
     margin-top: 30px;
     margin-bottom: 50px;
 }
+
+/* images  */
 
 .card{
     width: calc(95% / 3);
@@ -62,6 +67,9 @@ figure{
     background-image: url(img/6.webp);
 }
 
+
+/* banners inside */
+
 .red-discount{
     background-color:rgb(255, 0, 76);
     position:absolute;
@@ -80,11 +88,25 @@ figure{
     padding: 2px;
 }
 
-#bottom{
+#green-discount-bottom{
     position: absolute;
     bottom:10px;
     left: 0;
 }
+
+figure::after{
+    content: '\2665';
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-color: white;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+
+/* item description  */
 
 .description{
     width: 285px;
@@ -102,17 +124,7 @@ h4{
     font-weight: bold;
 }
 
-figure::after{
-    content: '\2665';
-    position: absolute;
-    top: 20px;
-    right: 0;
-    background-color: white;
-    padding-left:10px;
-    padding-right:10px;
-    padding-top:5px;
-    padding-bottom: 5px;
-}
+/* hover images change */
 
 #tee-top:hover{
     background-image: url(img/1b.webp);
