@@ -62,7 +62,7 @@ figure{
     background-image: url(img/6.webp);
 }
 
-figure span:first-child{
+.red-discount{
     background-color:rgb(255, 0, 98);
     position:absolute;
     bottom: 10px;
@@ -71,13 +71,19 @@ figure span:first-child{
     padding: 2px;
 }
 
-figure span:last-child{
+.green-discount{
     background-color:green;
     position:absolute;
     bottom: 10px;
     left: 45px;
     color: white;
     padding: 2px;
+}
+
+#bottom{
+    position: absolute;
+    bottom:10px;
+    left: 0;
 }
 
 .description{
