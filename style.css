@@ -19,12 +19,19 @@
     text-align: center;
 }
 
-figure{
+.small-container{
     width: calc(95% / 3);
-    height: 400px;
+    height: 458px;
     margin-left: 5px;
     margin-right: 5px;
     display: inline-block;
+
+}
+
+
+figure{
+    /* width: calc(95% / 3); */
+    height: 400px;
     position:relative;
 }
 
@@ -59,4 +66,8 @@ figure span:last-child{
     left: 45px;
     color: white;
     padding: 2px;
+}
+
+footer{
+    width: 285px;
 }
