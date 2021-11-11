@@ -7,11 +7,17 @@
 .container{
   width: 1000px;
   height: 800px;
+  margin: auto;
+  background-color: green;
+  padding-top: 30px;
 }
 
 .row{
     width: 900px;
     height: 350px;
+    margin: auto;
+    text-align: center;
+    background-color: red;
 }
 
 figure{
