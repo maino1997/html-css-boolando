@@ -80,7 +80,7 @@ figure span:last-child{
     padding: 2px;
 }
 
-footer{
+.description{
     width: 285px;
     text-align: left;
     display: inline-block;
