@@ -87,6 +87,14 @@ figure::after{
     padding-bottom: 5px;
 }
 
-figure:hover {
+#tee-top:hover{
     background-image: url(img/1b.webp);
+}
+
+#roses-tee:hover{
+    background-image: url(img/2b.webp);
+}
+
+#pastello:hover{
+    background-image: url(img/3b.webp);
 }
