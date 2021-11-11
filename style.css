@@ -35,21 +35,31 @@
 figure{
     height: 400px;
     position:relative;
+    background-size: cover;
 }
 
 #tee-top{
     background-image: url(img/1.webp);
-    background-size: cover;
 }
 
 #roses-tee{
     background-image: url(img/2.webp);
-    background-size: cover;
 }
 
 #pastello{
     background-image: url(img/3.webp);
-    background-size: cover;
+}
+
+#tee-unisex{
+    background-image: url(img/4.webp);
+    }
+
+#bodice{
+    background-image: url(img/5.webp);
+}
+
+#maglione{
+    background-image: url(img/6.webp);
 }
 
 figure span:first-child{
@@ -102,5 +112,17 @@ figure::after{
 
 #pastello:hover{
     background-image: url(img/3b.webp);
+}
+
+#tee-unisex:hover{
+    background-image: url(img/4b.webp);
+}
+
+#bodice:hover{
+    background-image: url(img/5b.webp);
+}
+
+#maglione:hover{
+    background-image: url(img/6b.webp);
 }
 
