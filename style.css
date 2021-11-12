@@ -106,6 +106,10 @@ figure::after{
     padding-bottom: 5px;
 }
 
+figure:hover{
+    color:red;
+}
+
 /* item description  */
 
 .description{
