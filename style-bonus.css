@@ -1,0 +1,138 @@
+
+/* generals */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+  width: 1000px;
+  height: 1000px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.row{
+    width: 900px;
+    height: 458px;
+    margin: auto;
+    text-align: center;
+}
+
+.row:last-child{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/* images and background */
+
+.card{
+    width: calc(95% / 3);
+    height: 458px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+
+figure{
+    height: 400px;
+    position:relative;
+    background-size: cover;
+}
+
+img{
+    width:100%;
+    height: 100%;
+}
+
+.hover-default{
+    position: absolute;
+    display: none;
+    left:0;
+}
+
+
+/* banners inside */
+
+.red-discount{
+    background-color:rgb(255, 0, 76);
+    position:absolute;
+    bottom: 10px;
+    left: 0;
+    color: white;
+    padding: 2px;
+}
+
+.green-discount{
+    background-color:rgb(3, 141, 95);
+    position:absolute;
+    bottom: 10px;
+    left: 45px;
+    color: white;
+    padding: 2px;
+}
+
+#green-discount-bottom{
+    position: absolute;
+    bottom:10px;
+    left: 0;
+}
+
+figure::after{
+    content: '\2665';
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-color: white;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+
+/* item description  */
+
+.description{
+    width: 100%;
+    text-align: left;
+    /* display: inline-block; */
+    font-size: 0.8em;
+}
+
+h4{
+    font-family: sans-serif;
+}
+
+.red-text{
+    color:red;
+    font-weight: bold;
+}
+
+/* hover images change */
+
+#tee-top:hover .hover-default{
+    display: inline-block;
+}
+
+#roses-tee:hover .hover-default{
+    display: inline-block;
+}
+
+#pastello:hover .hover-default{
+    display: inline-block;
+}
+
+#tee-unisex:hover .hover-default{
+    display: inline-block;
+}
+
+#bodice:hover .hover-default{
+    display: inline-block;
+}
+
+#maglione:hover .hover-default{
+    display: inline-block;
+}
